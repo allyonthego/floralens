@@ -10,7 +10,7 @@ Check it out [here](https://floralens.herokuapp.com/).
 
 Learned frontend (HTML, CSS, Javascript, Bootstrap, React.js), server API (Node.js, Express.js), and database (PostgreSQL) basics.
 
-Basic Tasks:
+#### Basic Tasks
 
 * Frontend:
     * Flower recognition
@@ -23,15 +23,30 @@ Basic Tasks:
 * Database:
     * Create user tables
 
+#### Irritating Issues & Fun Fixes
 
-Tasks to do:
+* Frontend:
+    * II: Promises sometimes (but not always) weren't kept
+    * FF: Setting state and Google Vision API are async functions
+    * II: UI difficult to create as planned
+    * FF: Use React.js, Bootstrap, Tachyon UI designs!
+    * II: Confusing app states and navigation/app routes
+    * FF: Draw a diagram: centralize possible paths, minimize number of and size of requests  
+
+* Deployment to Heroku: 
+    * II: Node modules built with different versions of Node.js
+    * FF: Specify versions in package.json
+    * II: CORS error (ie. server API works with Postman but miraculously fails elsewhere)
+    * FF: Create CORS proxy
+
+#### Immediate Tasks
 
 * DONE Make site look nice (with favions!)
 * DONE Clean up code, comments, README
 * DONE Deployment to Heroku
- * DONE Switch to Google API
-     * DONE API key retrieval
-     * DONE Create new endpoint
+* DONE Switch to Google API
+    * DONE API key retrieval
+    * DONE Create new endpoint
 
 * Frontend:
     * DONE Make UI responsive
@@ -46,7 +61,7 @@ Tasks to do:
     * DONE Fix validation of credential input
     * DONE Fix validation of credentials
 
-Tasks for the future:
+#### Future Tasks
 
 * Frontend:
     * Improve accuracy + scope via:
@@ -57,22 +72,8 @@ Tasks for the future:
     * Gallery of past plant photos
     * Bounding box for plant
 
-* Server:
+* Server API:
     * Reset profiles
     * Async hashing
     * Confirmation of credentials
     * Heroku change remote names
-
-Irritating Issues & Fun Fixes:
-* Frontend:
-    * II: Promises sometimes (but not always) weren't kept
-    * FF: Setting state and Google Vision API are async functions
-    * II: UI difficult to create as planned
-    * FF: Use React.js, Bootstrap, Tachyon UI designs!
-    * II: Confusing app states and navigation/app routes
-    * FF: Draw a diagram: centralize possible paths, minimize number of and size of requests  
-* Deployment to Heroku: 
-    * II: Node modules built with different versions of Node.js
-    * FF: Specify versions in package.json
-    * II: CORS error (ie. server API works with Postman but miraculously fails elsewhere)
-    * FF: Create CORS proxy
