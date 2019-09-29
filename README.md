@@ -60,3 +60,4 @@ Tasks for the future:
     * Reset profiles
     * Async hashing
     * Confirmation of credentials
+    * Heroku change remote names
