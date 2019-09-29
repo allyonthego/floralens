@@ -28,18 +28,19 @@ Tasks to do:
 
 * DONE Make site look nice (with favions!)
 * DONE Clean up code, comments, README
-* DONE Deployment to Heroku (troubleshoot Node.js ver)
+* DONE Deployment to Heroku
+ * DONE Switch to Google API
+     * DONE API key retrieval
+     * DONE Create new endpoint
 
 * Frontend:
-    * DONE Switch to Google API
-        * DONE API key retrieval
+    * DONE Make UI responsive
+    * DONE Make navigation convenient
     * DONE Fix photo not updating count
     * DONE Fix photo and link not reseting on reload
     * DONE Fix validation of credential input
 
-* Server API:
-    * DONE Switch to Google API
-        * DONE Create new endpoint
+* Server API:     
     * DONE Create CORS API/server
     * DONE Split up request functions/concerns
     * DONE Fix validation of credential input
@@ -61,3 +62,17 @@ Tasks for the future:
     * Async hashing
     * Confirmation of credentials
     * Heroku change remote names
+
+Irritating Issues & Fun Fixes:
+* Frontend:
+    * II: Promises sometimes (but not always) weren't kept
+    * FF: Setting state and Google Vision API are async functions
+    * II: UI difficult to create as planned
+    * FF: Use React.js, Bootstrap, Tachyon UI designs!
+    * II: Confusing app states and navigation/app routes
+    * FF: Draw a diagram: centralize possible paths, minimize number of and size of requests  
+* Deployment to Heroku: 
+    * II: Node modules built with different versions of Node.js
+    * FF: Specify versions in package.json
+    * II: CORS error (ie. server API works with Postman but miraculously fails elsewhere)
+    * FF: Create CORS proxy
