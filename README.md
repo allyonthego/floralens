@@ -8,7 +8,7 @@ Check it out [here](https://floralens.herokuapp.com/).
 
 ### Process
 
-Learned frontend (HTML, CSS, Javascript, Bootstrap, React.js), server API (Node.js, Express.js), and databases (PostgreSQL) basics.
+Learned frontend (HTML, CSS, Javascript, Bootstrap, React.js), server API (Node.js, Express.js), and database (PostgreSQL) basics.
 
 Basic Tasks:
 
