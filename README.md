@@ -40,7 +40,7 @@ Tasks to do:
 * Server API:
     * DONE Switch to Google API
         * DONE Create new endpoint
-    * Create CORS API
+    * DONE Create CORS API/server
     * DONE Split up request functions/concerns
     * DONE Fix validation of credential input
     * DONE Fix validation of credentials
