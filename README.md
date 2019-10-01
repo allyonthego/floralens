@@ -5,7 +5,7 @@ Web app to identify flowers by photo. Created for family and friends.
 ### Use
 
 Check it out [here](https://floralens.herokuapp.com/). Might take a while to load!
-![Flora Lens](https://raw.githubusercontent.com/allyonthego/floralens/master/2.png=200x)
+![Flora Lens](https://raw.githubusercontent.com/allyonthego/floralens/master/2.png =200x)
 
 ### Process
 
